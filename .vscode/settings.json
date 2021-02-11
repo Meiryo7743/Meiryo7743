@@ -1,24 +1,9 @@
 {
-  "[html]": {
-    "editor.formatOnSave": false,
-    "editor.tabSize": 2,
-    "files.insertFinalNewline": false,
-    "files.trimFinalNewlines": true
-  },
-  "[javascript]": {
-    "editor.tabSize": 2
-  },
-  "[json]": {
-    "editor.tabSize": 2
-  },
-  "[markdowm]": {
-    "editor.tabSize": 2
-  },
-  "[yaml]": {
-    "editor.tabSize": 2
-  },
-  "[scss]": {
-    "editor.tabSize": 4
-  },
-  "prettier.disableLanguages": ["html"]
+  "editor.formatOnSave": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "prettier.requireConfig": true
 }
